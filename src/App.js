@@ -1,17 +1,28 @@
+import LoginPage from "./components/pages/LoginPage";
+
 const { useState } = require("react");
 
-function App(){
-  const [prenom, setPrenom] = useState("van")
-  const [count, setCount] = useState(1)
-  const handleClick = () =>{
-    setCount(count +1);
-  }
+// function App(){
+//   const [prenom, setPrenom] = useState("van")
+//   const [count, setCount] = useState(1)
+//   const handleClick = () =>{
+//     setCount(count +1);
+//   }
 
-  return <div>
-      <h1>Bonjour {prenom}</h1>
-      <p>{count}</p>
-      <button onClick={handleClick}>increment</button>
-  </div>
+//   return 
+//   <div>
+//       <h1>Bonjour {prenom}</h1>
+//       <p>{count}</p>
+//       <button onClick={handleClick}>increment</button>
+//   </div>
+  
+// }
+
+function App(){
+ 
+
+  return 
+ <LoginPage/>
   
 }
 
