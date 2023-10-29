@@ -1,7 +1,5 @@
 import LoginPage from "./components/pages/LoginPage";
 
-const { useState } = require("react");
-
 // function App(){
 //   const [prenom, setPrenom] = useState("van")
 //   const [count, setCount] = useState(1)
@@ -19,10 +17,8 @@ const { useState } = require("react");
 // }
 
 function App(){
- 
 
-  return 
- <LoginPage/>
+  return <LoginPage/>
   
 }
 
